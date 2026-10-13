@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840" role="img" aria-labelledby="title desc">
+  <title id="title">七种小说叙事方法总览</title>
+  <desc id="desc">起承转合、金字塔、冲突曲线、雪花写作法、英雄之旅、七点故事结构、救猫咪节拍的原创示意图，展示各自的主要用途。</desc>
+  <defs>
+    <style>
+      .bg{fill:#f5f6f2}.card{fill:#fff;stroke:#dce2df;stroke-width:2}.ink{fill:#193038}.muted{fill:#5e7378}.accent{stroke:#0e7774;fill:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.accent2{stroke:#eea05b;fill:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.thin{stroke:#a9bbb8;fill:none;stroke-width:2}.dot{fill:#0e7774}.warm{fill:#eea05b}.head{font:700 43px "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif}.sub{font:24px "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif}.name{font:700 29px "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif}.kind{font:19px "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif}.note{font:20px "PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif}.num{font:700 19px Arial,sans-serif}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="840"/>
+  <text class="head ink" x="44" y="67">七种叙事方法，分别解决什么问题？</text>
+  <text class="sub muted" x="46" y="105">从故事走势、冲突节奏、人物变化到逐层扩写</text>
+
+  <g transform="translate(40 145)">
+    <rect class="card" width="355" height="277" rx="20"/>
+    <text class="num muted" x="25" y="35">01</text><text class="name ink" x="25" y="73">起承转合</text>
+    <text class="kind muted" x="25" y="102">四段推进 · 信息转向</text>
+    <path class="thin" d="M29 194H327"/>
+    <path class="accent" d="M38 190 L104 190 L159 161 L216 161 L266 128 L316 178"/>
+    <circle class="warm" cx="266" cy="128" r="9"/>
+    <text class="note ink" x="25" y="247">让“转”重新解释前文</text>
+  </g>
+  <g transform="translate(430 145)">
+    <rect class="card" width="355" height="277" rx="20"/>
+    <text class="num muted" x="25" y="35">02</text><text class="name ink" x="25" y="73">金字塔</text>
+    <text class="kind muted" x="25" y="102">加压 · 高点 · 后果</text>
+    <path class="thin" d="M28 195H327"/>
+    <path class="accent" d="M43 192 L178 126 L313 192"/>
+    <circle class="warm" cx="178" cy="126" r="9"/>
+    <path class="thin" stroke-dasharray="5 5" d="M178 140V194"/>
+    <text class="note ink" x="25" y="247">定位不可回头的高点</text>
+  </g>
+  <g transform="translate(820 145)">
+    <rect class="card" width="355" height="277" rx="20"/>
+    <text class="num muted" x="25" y="35">03</text><text class="name ink" x="25" y="73">冲突曲线</text>
+    <text class="kind muted" x="25" y="102">行动 · 得失 · 再升级</text>
+    <path class="thin" d="M28 197H327"/>
+    <path class="accent" d="M36 188 C65 190 68 150 91 150 S112 190 139 178 S169 127 190 128 S215 174 239 157 S272 113 286 120 S305 137 320 114"/>
+    <text class="note ink" x="25" y="247">每次波动改变人物处境</text>
+  </g>
+  <g transform="translate(1210 145)">
+    <rect class="card" width="355" height="277" rx="20"/>
+    <text class="num muted" x="25" y="35">04</text><text class="name ink" x="25" y="73">雪花写作法</text>
+    <text class="kind muted" x="25" y="102">一句话 → 人物 → 场景</text>
+    <path class="thin" d="M177 146 L90 192 M177 146 L266 192 M90 192 L49 212 M90 192 L125 212 M266 192 L225 212 M266 192 L310 212"/>
+    <circle class="warm" cx="177" cy="146" r="15"/><circle class="dot" cx="90" cy="192" r="12"/><circle class="dot" cx="266" cy="192" r="12"/>
+    <circle class="dot" cx="49" cy="212" r="6"/><circle class="dot" cx="125" cy="212" r="6"/><circle class="dot" cx="225" cy="212" r="6"/><circle class="dot" cx="310" cy="212" r="6"/>
+    <text class="note ink" x="25" y="247">把设想扩成可用的资料</text>
+  </g>
+
+  <g transform="translate(235 450)">
+    <rect class="card" width="355" height="277" rx="20"/>
+    <text class="num muted" x="25" y="35">05</text><text class="name ink" x="25" y="73">英雄之旅</text>
+    <text class="kind muted" x="25" y="102">离开 · 考验 · 带着变化归来</text>
+    <circle class="thin" cx="178" cy="168" r="51"/>
+    <path class="accent" d="M178 117 A51 51 0 1 1 132 190"/>
+    <path class="accent2" d="M131 190 L128 168 M131 190 L153 185"/>
+    <circle class="warm" cx="178" cy="117" r="8"/>
+    <text class="note ink" x="25" y="247">核对角色是否真正改变</text>
+  </g>
+  <g transform="translate(625 450)">
+    <rect class="card" width="355" height="277" rx="20"/>
+    <text class="num muted" x="25" y="35">06</text><text class="name ink" x="25" y="73">七点故事结构</text>
+    <text class="kind muted" x="25" y="102">起点到终局的因果链</text>
+    <path class="accent" d="M35 185 L82 164 L129 178 L177 128 L224 171 L271 146 L320 119"/>
+    <circle class="dot" cx="35" cy="185" r="8"/><circle class="dot" cx="82" cy="164" r="8"/><circle class="dot" cx="129" cy="178" r="8"/>
+    <circle class="warm" cx="177" cy="128" r="10"/><circle class="dot" cx="224" cy="171" r="8"/><circle class="dot" cx="271" cy="146" r="8"/><circle class="dot" cx="320" cy="119" r="8"/>
+    <text class="note ink" x="25" y="247">先确定关键转折，再铺过程</text>
+  </g>
+  <g transform="translate(1015 450)">
+    <rect class="card" width="355" height="277" rx="20"/>
+    <text class="num muted" x="25" y="35">07</text><text class="name ink" x="25" y="73">救猫咪节拍</text>
+    <text class="kind muted" x="25" y="102">15 个节拍 · 承诺与兑现</text>
+    <path class="thin" d="M29 199H327"/>
+    <g fill="#0e7774">
+      <rect x="35" y="173" width="10" height="26" rx="3"/><rect x="55" y="164" width="10" height="35" rx="3"/><rect x="75" y="176" width="10" height="23" rx="3"/><rect x="95" y="151" width="10" height="48" rx="3"/><rect x="115" y="158" width="10" height="41" rx="3"/>
+      <rect x="135" y="142" width="10" height="57" rx="3"/><rect x="155" y="166" width="10" height="33" rx="3"/><rect x="175" y="126" width="10" height="73" rx="3"/><rect x="195" y="145" width="10" height="54" rx="3"/><rect x="215" y="160" width="10" height="39" rx="3"/>
+      <rect x="235" y="183" width="10" height="16" rx="3"/><rect x="255" y="170" width="10" height="29" rx="3"/><rect x="275" y="148" width="10" height="51" rx="3"/><rect x="295" y="137" width="10" height="62" rx="3"/><rect x="315" y="125" width="10" height="74" rx="3"/>
+    </g>
+    <rect class="warm" x="175" y="126" width="10" height="73" rx="3"/><rect class="warm" x="235" y="183" width="10" height="16" rx="3"/>
+    <text class="note ink" x="25" y="247">检验中段与结局的情绪节奏</text>
+  </g>
+  <text class="sub muted" x="47" y="793">图解为本仓库对七种方法的工作示意，非原著图表；节点不代表固定篇幅比例。</text>
+</svg>
