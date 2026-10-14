@@ -1,10 +1,49 @@
-# ⚙️ Long-Novel-Architect｜长篇小说架构师
+# Popwave × Long-Novel-Architect
 
-**把一个脑洞交给七种经典写作方法会诊，推演成可持续推进的长篇结构。**
+### 给网文作者的 Codex，从找创意到写成一部小说
 
-长篇最难的部分，往往从精彩开局之后开始：事件如何一环扣一环，人物凭什么改变，每一卷又如何产生新的目标？本 Skill 把七种叙事方法转成可执行的诊断表、结构路由和续航检查，帮助作者在动笔前看见这些问题。
+**[🌊 在 Popwave 体验「七种经典写作技法流」→](https://popwave.cn/work/)** · [看网文 Daily](https://popwave.cn/work/daily) · [下载开源 Skill](#本地安装与使用)
 
-[设计哲学](#设计哲学先给长篇做压力测试) · [七大结构矩阵](#七大结构诊断矩阵) · [执行流程](#技能执行流) · [完整试跑报告](long-novel-architect/examples/yapo-dalisi-output.md) · [在 Popwave 继续创作](#在-popwave-继续创作)
+有了一个想法，接下来还要判断它适合什么赛道、怎样搭出能持续推进的结构、如何写正文，以及写完后到哪里找投稿机会。**Popwave 把这些环节放进同一个网文创作工作区**：它能查资料、调用专业 Skill 和写作专家、推进小说项目，也能帮助作者把作品做成封面与漫画。
+
+[![Popwave 网页版创作工作区：找创意、理大纲、写正文、拆热书与制作视觉素材](docs/popwave-work.png)](https://popwave.cn/work/)
+
+## Popwave 能陪你做什么
+
+| 创作阶段 | 在 Popwave 里可以做的事 |
+|---|---|
+| **找方向** | 搜索平台新书榜单、赛道变化与新元素；在 [Daily 网文情报站](https://popwave.cn/work/daily)查看不同平台和赛道的热力与变化，再决定写什么。 |
+| **搭故事** | 从脑洞出发理大纲、建立人物与设定。调用网文 Skill，或选择雪花流、涌现流等写作专家，让方法跟着项目一起工作。 |
+| **写与改** | 在小说项目中继续排章节、写正文；拆解参考作品的结构、节奏与文风，整理可供自己创作使用的写法。 |
+| **找素材、做视觉** | 在[网文 Wiki](https://popwave.cn/work/knowledge)查写作素材与方法；为作品制作封面、人物视觉素材和漫画。 |
+| **检查与寻找机会** | 使用[朱雀 AI 检测](https://popwave.cn/work/detect)查看正文的 AI 写作特征；在 [Daily 征稿情报](https://popwave.cn/work/daily)查平台征稿要求、投稿渠道和编辑联系方式。 |
+
+Popwave 的写作方法由专业编辑与作者团队在工作室创作中验证，再将可复用的部分整理为 Skill 与专家模式。作者可以按题材与创作阶段选择方法，让专家依据故事项目继续工作。
+
+**[进入 Popwave 工作区 →](https://popwave.cn/work/)** · [浏览 Skill 与专家](https://popwave.cn/work/skills) · [查看今日网文情报](https://popwave.cn/work/daily)
+
+## 先跑起来：网页版直接体验，源码也可自行安装
+
+**推荐在 Popwave 体验。**网页版提供内置的「七种经典写作技法流」，打开 [Popwave 工作区](https://popwave.cn/work/)登录并新建小说项目，就可以用自己的脑洞或 [Daily 趋势](https://popwave.cn/work/daily)开始结构推演。得到骨架后，继续在同一项目里选择写作专家，推进设定、章纲与正文。使用网页版不需要下载本仓库。
+
+```text
+打开 Popwave → 新建小说项目 → 使用「七种经典写作技法流」
+              → 得到长篇结构稿 → 写作专家继续推进
+```
+
+在项目对话中可以这样开始：
+
+> 请用「七种经典写作技法流」分析这个长篇脑洞。逐一诊断七种方法，选出主方法和辅助方法，给出全书节点、分卷任务及前三章目标；保留我已经确定的情节，新增内容标为提案。［粘贴脑洞］
+
+**想独立运行或查看完整方法？**下载本仓库，将 `long-novel-architect/` 安装到支持 Skills 的本地 Agent。运行后可得到 Markdown 结构稿，也可以把这份结构稿带入 Popwave 项目。[查看本地安装步骤 →](#本地安装与使用)
+
+## 我们开放的 Skill：长篇小说架构师
+
+**Long-Novel-Architect 把七种经典写作结构变成可执行的诊断与推演流程。**输入一句脑洞、一份设定或一段市场信号，它会检查故事的因果、人物变化与连载动力，选择主辅方法，交付全书节点、分卷任务和前三章目标。
+
+长篇最难的部分，往往从精彩开局之后开始：事件如何一环扣一环，人物凭什么改变，每一卷又如何产生新的目标？这份开源 Skill 展示了我们怎样把写作理论变成具体工作步骤。Popwave 中的体验名称是「七种经典写作技法流」；本仓库保留可独立安装的 Skill 文件、方法手册和试跑报告。
+
+[七大结构矩阵](#七大结构诊断矩阵) · [执行流程](#技能执行流) · [完整试跑报告](long-novel-architect/examples/yapo-dalisi-output.md) · [在 Popwave 继续创作](#在-popwave-继续创作)
 
 ![七种小说叙事方法的原创工作示意图](docs/seven-structures.png)
 
@@ -74,7 +113,7 @@ Skill 逐一检查分段、因果、压力、连续得失、人物变化、读�
 
 ### Step 4｜带着结构稿继续写
 
-结构稿采用普通 Markdown，可以在本地 Agent 中继续修改，也可以交给 [Popwave 创作工作区](https://popwave.cn/work/)的写作专家，继续立项、设定、剧情编排和章节写作。当前衔接方式是**复制结构稿与接力指令**。
+结构稿采用普通 Markdown。在 Popwave 中运行时，可以接着让写作专家推进设定、剧情编排和章节写作；在本地 Agent 中运行时，可将结构稿与接力指令复制到 [Popwave 创作工作区](https://popwave.cn/work/)继续使用。
 
 ## 诊断与输出示例
 
@@ -113,7 +152,7 @@ Skill 逐一检查分段、因果、压力、连续得失、人物变化、读�
 
 完整操作表、验收项和来源说明见[方法手册](long-novel-architect/references/structure-guide.md)。
 
-## 安装与使用
+## 本地安装与使用
 
 下载此仓库后，在仓库根目录将整个 Skill 文件夹放进支持 Skills 的 Agent 目录。以 Codex 为例：
 
@@ -129,9 +168,18 @@ cp -R long-novel-architect ~/.codex/skills/
 
 ## 在 Popwave 继续创作
 
-想把结构稿推进到立项和连载，可打开 [**Popwave 创作工作区**](https://popwave.cn/work/)：新建小说项目，选择已有的写作专家，把结构稿与[接力指令](long-novel-architect/examples/yapo-dalisi-output.md#交给-popwave-的下一步)粘贴进去。本案例可由「雪花流写作专家」继续处理设定、剧情、章纲与正文。
+**已经在 Popwave 使用「七种经典写作技法流」？**留在当前小说项目，接着选择适合的写作专家推进设定、剧情、章纲和正文。本案例可由「雪花流写作专家」继续处理。
 
-需要先找方向时，[**Popwave Daily**](https://popwave.cn/work/daily)提供趋势、榜单与写作情报；已有脑洞时可直接从结构诊断开始。
+**在本地运行了开源版？**打开 [Popwave 创作工作区](https://popwave.cn/work/)新建小说项目，把结构稿与[接力指令](long-novel-architect/examples/yapo-dalisi-output.md#交给-popwave-的下一步)粘贴进去，再让写作专家接力。
+
+| 你现在需要 | Popwave 中的入口 |
+|---|---|
+| 还没有确定写什么 | [Daily 趋势与扫榜](https://popwave.cn/work/daily)看平台、赛道和元素的变化，再带着信号使用本 Skill。 |
+| 已经有故事骨架 | [Work 小说项目](https://popwave.cn/work/)中继续理大纲、写正文，按需要选择[网文 Skill 与专家](https://popwave.cn/work/skills)。 |
+| 写作时缺资料或参考 | 到[网文 Wiki](https://popwave.cn/work/knowledge)找设定、素材和技法，也可以在工作区拆解参考作品。 |
+| 正文完成，准备呈现与投稿 | 制作封面或漫画，用[朱雀 AI 检测](https://popwave.cn/work/detect)查看文本特征，并在 [Daily 征稿情报](https://popwave.cn/work/daily)查可用渠道。 |
+
+**[🌊 打开 Popwave 网页版，从一个脑洞开始写 →](https://popwave.cn/work/)**
 
 ## 仓库目录
 
@@ -139,6 +187,7 @@ cp -R long-novel-architect ~/.codex/skills/
 README.md
 LICENSE                                      MIT 开源许可
 docs/seven-structures.png                     七种方法总览图
+docs/popwave-work.png                          Popwave 网页版工作区截图
 long-novel-architect/
 ├── SKILL.md                                   执行流程与交付门槛
 ├── references/structure-guide.md              七种方法的操作、验收与来源
