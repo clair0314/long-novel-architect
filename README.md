@@ -6,7 +6,7 @@
 
 有了一个想法，接下来还要判断它适合什么赛道、怎样搭出能持续推进的结构、如何写正文，以及写完后到哪里找投稿机会。**Popwave 把这些环节放进同一个网文创作工作区**：它能查资料、调用专业 Skill 和写作专家、推进小说项目，也能帮助作者把作品做成封面与漫画。
 
-[![Popwave 网页版创作工作区：找创意、理大纲、写正文、拆热书与制作视觉素材](docs/popwave-work.png)](https://popwave.cn/work/)
+[![Popwave 工作区：功能区、对话区、项目总控区](docs/popwave-work.png)](https://popwave.cn/work/)
 
 ## Popwave 能陪你做什么
 
@@ -187,7 +187,7 @@ cp -R long-novel-architect ~/.codex/skills/
 README.md
 LICENSE                                      MIT 开源许可
 docs/seven-structures.png                     七种方法总览图
-docs/popwave-work.png                          Popwave 网页版工作区截图
+docs/popwave-work.png                          Popwave 工作区三区域示意图
 long-novel-architect/
 ├── SKILL.md                                   执行流程与交付门槛
 ├── references/structure-guide.md              七种方法的操作、验收与来源
